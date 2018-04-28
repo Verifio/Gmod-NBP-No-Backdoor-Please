@@ -79,13 +79,13 @@ hook.Add("PlayerAuthed", "NBP_ASH", function(ply)
 						title:SizeToContents()
 						local t = [[
 							Garry's Mod a subit une erreur causée par la présence de scripthook.
-							Le serveur étant proteger par NBP, votre jeu Garry's Mod a été bloqué.
+							Le serveur étant protegé par NBP, votre jeu Garry's Mod a été bloqué.
 							Veuillez ré-installer Garry's Mod et ne jamais essayer de voler des fichiers à l'avenir.
 
 
 
 
-							      John
+							      ~John
 							      Ce message apparait suite à l'utilisation de scripthook sur un serveur étant protégé par NBP.
 							]]
 							local text = vgui.Create("DLabel", frame)
